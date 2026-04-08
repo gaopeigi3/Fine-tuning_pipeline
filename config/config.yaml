@@ -1,0 +1,17 @@
+project: Fine-tuning_pipeline
+
+# input: data/raw/merged.h5ad
+# output: data/tokenized/tokenized.dataset
+
+data:
+  raw_dir: data/raw
+  tokenized_dir: data/tokenized
+  embedding_dir: data/embedding
+  isp_dir: results/isp
+
+tokenize:
+  nproc: 4
+
+model:
+  path: resources/geneformer/pretrained_model
+

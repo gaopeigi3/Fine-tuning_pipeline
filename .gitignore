@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda
+.env
+.venv
+
+# Snakemake
+.snakemake/
+
+# Data（重点）
+data/
+results/
+*.h5ad
+*.loom
+*.csv
+*.tsv
+
+# Logs
+logs/
+
+# OS
+.DS_Store
